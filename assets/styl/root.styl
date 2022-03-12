@@ -1,0 +1,176 @@
+azulLogo = #147ab7
+colorOriginal = #0BAEAD
+colorOrginalOscuro = #08817F
+NaranjaOriginal = #f36438
+
+// template pediatria y otras web
+btn-nav = #199fec
+
+.pug
+	margin 0
+	font-family "Open Sans", sans-serif
+	box-sizing border-box
+	& *
+		transition all ease 0.3s
+.px
+	padding-left 5%
+	padding-right 5%
+.nit
+	background azulLogo
+.nit__information
+	align-itenms center
+	color #fff
+	display grid
+	font-size 13px
+	max-width 780px
+	margin 0 auto
+	text-align center
+	p
+		line-height 2em
+.header2
+	align-items center
+	display flex
+	flex-direction row
+	flex-wrap wrap
+	justify-content center
+	margin 1em auto
+	max-width 1200px
+	font-size 0.9em
+	& img
+		max-height 48px
+.header__info
+	padding 1em
+	a
+		font-weight bold
+		color #000
+		text-decoration none
+	p
+		color #949494
+.header__info *
+	margin 0
+
+.h1Img
+	max-height 4em
+.information
+	background url("./../images/clouds.svg") azulLogo
+	background-position center
+	background-size cover
+.mainTitle
+	color #fff
+	font-size 2.5em
+	text-align center
+	padding 1em
+
+.navi
+	btn-hover = azulLogo
+	margin 0
+	text-align center
+	overflow-x auto
+	white-space nowrap
+	ul
+		padding 0
+		display inline-block
+	li
+		background btn-nav
+		border-radius 5px
+		display inline-block
+		padding 0.5em 1em
+		margin 0.5em 1em
+		&:hover
+			background btn-hover
+
+.cWhite
+	color white
+.link
+	text-decoration none
+	&:hover
+		text-decoration underline
+.medicalServices
+	h2
+		margin 0
+.mw1280
+	max-width 1280px
+	margin 0 auto
+.mw1024
+	max-width 1024px
+	margin 0 auto
+.mw768
+	max-width 768px
+	margin 0 auto
+
+.medicalCards
+	display grid
+	grid-template-columns: repeat(3, auto)
+	grid-column-gap: 1em
+.medicalService__card
+	box-sizing: border-box
+	max-width: 100%
+	padding 2em
+	align-items: center
+	a
+		text-decoration: none
+		color #fff
+		background azulLogo
+		padding 0.5em
+		border-radius: 10px
+		&:hover
+			background: btn-nav
+.medicalService__card__img
+	max-width: 100%
+
+.footer
+	background: #151515
+	padding 2em
+	display grid
+	grid-template-columns: repeat(3, 1fr)
+	justify-items: center
+	margin auto
+	a
+		color rgb(186, 186, 186)
+		text-decoration: none
+		&:hover
+			text-decoration: underline
+	h3
+		color azulLogo
+	p 
+		color #fff
+.footer__section__links
+	display grid
+	grid-template-rows 1fr
+	padding 0.5em
+	h3
+		border-bottom 1px dashed rgb(186, 186, 186)
+.footer__section__links
+	& *
+		padding 0.5em
+.logoBottom
+	max-height: 50px
+.bluebar
+	background azulLogo
+	padding 1em
+	margin-top 2em
+
+@media all and (max-width 768px){
+	.medicalCards {
+		grid-template-columns: repeat(2, auto)
+		}
+	.footer{
+		grid-template-columns: repeat(2, 1fr)
+		max-width 100%
+		text-align: center
+		}
+	}
+@media all and (max-width 500px){
+	.medicalCards {
+		grid-template-columns: repeat(1, auto)
+		}
+	}
+@media all and (max-width 425px){
+	.footer{
+		grid-template-columns: repeat(1, 1fr)
+		max-width 100%
+		}
+	.header2 {
+		justify-content left
+		}
+	}

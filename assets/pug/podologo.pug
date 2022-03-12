@@ -1,0 +1,45 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1 user-scalable=no")
+        link(rel="stylesheet", href="css/root.css", attr)
+        script(src='https://kit.fontawesome.com/57f0f78369.js' crossorigin='anonymous')
+        include meta
+
+        title Diagnostica - Podólogo
+    body.pug
+        include metaBody
+        div.nit
+            .nit__information.px
+                p NIT: 901091685-2 | Horario según agenda de especialista
+        header.header2.px
+            img(src="./images/diagnosticaGrey.webp", alt="")
+        include mainMenu
+        include floatMenu
+        .information
+            i.fa-solid.fa-arrow-right-long
+            .mw1280
+                h1.mainTitle Podólogo
+        .mw1280.medicalServices
+            .medicalService.mw768.px
+                p Centro medico que presta servicios de podología para el manejo y cuidados de los pies, enfermedades de las uñas, manejo de infecciones y dolor crónico por podólogo. Se realiza procedimientos para la corrección de uñas encarnadas, manejo de juanetes y fabricación de plantillas. Ubicados en el municipio de Funza Cundinamarca y cercano a Mosquera, Madrid y Facatativá. 
+            .medicalCards
+                .medicalService__card
+                    img(src="./images/nails1.png", alt="alt").medicalService__card__img
+                    h3 Valoraciones de enfermedades de las uñas
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+                .medicalService__card
+                    img(src="./images/nails2.png", alt="alt").medicalService__card__img
+                    h3 Procedimientos menores
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+                .medicalService__card
+                    img(src="./images/nails3.png", alt="alt").medicalService__card__img
+                    h3 Fabricación de plantillas
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+                .medicalService__card
+                    img(src="./images/nails4.png", alt="alt").medicalService__card__img
+                    h3 Manejo de Juanetes
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+        include footer

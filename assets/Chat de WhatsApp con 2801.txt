@@ -1,0 +1,64 @@
+29/10/21 13:08 - Los mensajes y las llamadas están cifrados de extremo a extremo. Nadie fuera de este chat, ni siquiera WhatsApp, puede leerlos ni escucharlos. Toca para obtener más información.
+29/10/21 13:06 - 2801: Buenas tarde
+29/10/21 13:07 - 2801: Para apartar una cita con la ginecóloga porfavor
+29/10/21 13:07 - 2801: Para una consulta
+29/10/21 13:08 - DIAGNOSTICA Centro Médico: Buenas tardes
+29/10/21 13:08 - DIAGNOSTICA Centro Médico: claro que si
+29/10/21 13:08 - DIAGNOSTICA Centro Médico: para el próximo viernes hay disponibilidad
+29/10/21 13:08 - DIAGNOSTICA Centro Médico: La consulta de ginecología tiene un valor de 70.000. La ginecóloga viene los días viernes en la mañana. Se atiende con cita previa.
+29/10/21 13:09 - 2801: Ok para en la mañana porfavor
+29/10/21 13:09 - DIAGNOSTICA Centro Médico: a las 9am
+29/10/21 13:09 - DIAGNOSTICA Centro Médico: nombre por favor
+29/10/21 13:09 - 2801: Ok muchas gracias
+29/10/21 13:10 - 2801: Yorbelis Carolina del valle Sarabia
+29/10/21 13:10 - DIAGNOSTICA Centro Médico: Listo
+29/10/21 13:10 - DIAGNOSTICA Centro Médico: ya quedas agendada
+29/10/21 13:10 - 2801: Ok. Pero llegó y paso de una vez o tendría que esperar. Porque entro a trabajar a las once
+29/10/21 13:11 - DIAGNOSTICA Centro Médico: si
+29/10/21 13:11 - DIAGNOSTICA Centro Médico: depende de como lleguen los pacientes que esten antes de ti
+29/10/21 13:11 - DIAGNOSTICA Centro Médico: si quieres te agendo la primera a las 8am
+29/10/21 13:11 - 2801: Ella empieza a ver a las nueve
+29/10/21 13:11 - 2801: De que número quede
+29/10/21 13:12 - DIAGNOSTICA Centro Médico: primera
+29/10/21 13:12 - 2801: Ahh bueno osea que paso de una vez llegué
+29/10/21 13:12 - DIAGNOSTICA Centro Médico: si
+29/10/21 13:13 - DIAGNOSTICA Centro Médico: listo
+29/10/21 13:13 - 2801: Si porfavor es que a las once tengo que estar en el trabajo
+29/10/21 13:13 - 2801: Vale muchas gracias
+29/10/21 13:13 - DIAGNOSTICA Centro Médico: quedas agendada para el próximo viernes a las 8am
+29/10/21 13:13 - 2801: Ok muchas gracias
+2/11/21 15:06 - DIAGNOSTICA Centro Médico: buenas tardes
+2/11/21 15:06 - DIAGNOSTICA Centro Médico: podrías por favor darme estos datos para hacer el agendamiento en el sistema
+2/11/21 15:09 - DIAGNOSTICA Centro Médico: Necesito tipo y número de documento
+Nombre completo
+Fecha de nacimiento
+Estado civil
+Número de celular
+Municipio de residencia y dirección 
+Ocupación
+EPS 
+E-mail
+Y nombre de acompañante y parentesco si vienes con alguien
+2/11/21 15:17 - 2801: Cédula: 27551302.              
+Nombre: yorbelis Carolina
+Apellido: del valle Sarabia 
+Fecha de nacimiento: 19/04/1999
+Estado civil: soltera
+Número de celular: 3118955375
+Municipio de residencia: mosquera santa Ana
+Ocupación: café deportivo
+Eps: no tengo 
+E-mail: no tengo
+2/11/21 15:17 - 2801: Así está bien
+2/11/21 15:17 - DIAGNOSTICA Centro Médico: gracias
+2/11/21 15:17 - 2801: De nada. Si está bien asi
+2/11/21 15:18 - DIAGNOSTICA Centro Médico: si
+2/11/21 15:18 - 2801: Gracias
+2/11/21 15:18 - DIAGNOSTICA Centro Médico: Nombre de alguna persona en caso de emergencia
+2/11/21 15:18 - DIAGNOSTICA Centro Médico: Y celular
+2/11/21 15:19 - 2801: Yileni Karina del valle Sarabia. 3204502235. Hermana
+2/11/21 15:24 - DIAGNOSTICA Centro Médico: Gracias
+5/11/21 8:14 - DIAGNOSTICA Centro Médico: Buenos días
+5/11/21 8:14 - DIAGNOSTICA Centro Médico: Para confirmar asistencia a la cita el día de hoy?
+5/11/21 8:14 - DIAGNOSTICA Centro Médico: Eliminaste este mensaje
+5/11/21 8:16 - 2801: Buenos días si ya voy llegando

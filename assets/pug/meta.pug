@@ -1,0 +1,49 @@
+// Meta Tags
+meta(cache-control:='' no-cache='')
+meta(content='http://centrodiagnostica.com/images/logo.webp' property='og:image')
+meta(content='summary' name='twitter:card')
+meta(name='author' content='Diagnostica')
+link(rel='canonical' href='https://www.centrodiagnostica.com/')
+
+
+// themecolor
+// Chrome, Firefox OS and Opera
+meta(name='theme-color' content='#147ab7')
+// Windows Phone
+meta(name='msapplication-navbutton-color' content='#147ab7')
+// iOS Safari
+meta(name='apple-mobile-web-app-status-bar-style' content='#147ab7')
+// /themecolor
+
+
+// Favicon and Touch Icons
+link(href='images/favicon.webp' rel='shortcut icon' type='image/png')
+link(href='images/apple-touch-icon.webp' rel='apple-touch-icon')
+link(href='images/apple-touch-icon-72x72.webp' rel='apple-touch-icon' sizes='72x72')
+link(href='images/apple-touch-icon-114x114.webp' rel='apple-touch-icon' sizes='114x114')
+link(href='images/apple-touch-icon-144x144.webp' rel='apple-touch-icon' sizes='144x144')
+// Favicon and Touch Icons
+
+// Facebook Pixel Code
+script.
+    ! function(f, b, e, v, n, t, s) {
+    if (f.fbq) return;
+    n = f.fbq = function() {
+    n.callMethod ?
+    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    };
+    if (!f._fbq) f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = '2.0';
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '538931817158484');
+    fbq('track', 'PageView');
+noscript

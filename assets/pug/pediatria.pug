@@ -1,0 +1,50 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1 user-scalable=no")
+        link(rel="stylesheet", href="css/root.css", attr)
+        script(src='https://kit.fontawesome.com/57f0f78369.js' crossorigin='anonymous')
+        include meta
+
+        title Diagnostica - Pediatría
+    body.pug
+        include metaBody
+        div.nit
+            .nit__information.px
+                p NIT: 901091685-2 | Horario según agenda de especialista
+        header.header2.px
+            img(src="./images/diagnosticaGrey.webp", alt="")
+        include mainMenu
+        include floatMenu
+        .information
+            i.fa-solid.fa-arrow-right-long
+            .mw1280
+                h1.mainTitle Pediatría
+            
+        .mw1280.medicalServices
+            .medicalService.mw768.px
+                p Centro médico que presta servicios de pediatría con tención de niños de cualquier edad por médico pediatra en el municipio de Funza Cundinamarca y cercano a Mosquera, Madrid y Facatativá. Se realiza valoración del recién nacido, así como de crecimiento y desarrollo, manejo de infecciones respiratorias, digestivas y urinarias. Pediatría general y salud del adolescente.
+            .medicalCards
+                .medicalService__card
+                    img(src="./images/baby3.png", alt="alt").medicalService__card__img
+                    h3 Atención al recién nacido
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+                .medicalService__card
+                    img(src="./images/baby2.png", alt="alt").medicalService__card__img
+                    h3 Crecimiento y desarrollo
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+                .medicalService__card
+                    img(src="./images/baby.png", alt="alt").medicalService__card__img
+                    h3 Consultas prioritarias
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+                .medicalService__card
+                    img(src="./images/baby4.png", alt="alt").medicalService__card__img
+                    h3 Manejo de enfermedades de la infacia
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+                //- .medicalService__card
+                //-     img(src="./images/baby5.png", alt="alt").medicalService__card__img
+                //-     h3 Manejo de enfermedades de la infacia
+                //-     a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+        include footer

@@ -1,0 +1,50 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1 user-scalable=no")
+        link(rel="stylesheet", href="css/root.css", attr)
+        script(src='https://kit.fontawesome.com/57f0f78369.js' crossorigin='anonymous')
+        include meta
+
+        title Diagnostica - Laboratorio Clínico
+    body.pug
+        include metaBody
+        div.nit
+            .nit__information.px
+                p NIT: 901091685-2 |  lunes a sabado de 8 am a 10 30 am. domingos y festivos no hay servicio
+        header.header2.px
+            img(src="./images/diagnosticaGrey.webp", alt="")
+        include mainMenu
+        include floatMenu
+        .information
+            i.fa-solid.fa-arrow-right-long
+            .mw1280
+                h1.mainTitle Laboratorio Clínico
+            
+        .mw1280.medicalServices
+            .medicalService.mw768.px
+                p Centro medico que presta servicios de laboratorio clínico para la realización de todos los exámenes en sangre que el paciente necesite. Además, contamos con los servicios de toma de citologías y la realización de electrocardiogramas en el municipio de Funza Cundinamarca y cercano a Mosquera, Madrid y Facatativá. Toma de muestras accesibles, oportunas y confiables en el diagnostico de patologías de niños y adultos. 
+            .medicalCards
+                .medicalService__card
+                    img(src="./images/clinical1.png", alt="alt").medicalService__card__img
+                    h3 Laboratorios en sangre
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+                .medicalService__card
+                    img(src="./images/clinical2.png", alt="alt").medicalService__card__img
+                    h3 Cultivos con antibiograma
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+                .medicalService__card
+                    img(src="./images/clinical3.png", alt="alt").medicalService__card__img
+                    h3 Citología Cérvico-uterina
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+                .medicalService__card
+                    img(src="./images/clinical5.png", alt="alt").medicalService__card__img
+                    h3 Electrocardiogramas
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+                .medicalService__card
+                    img(src="./images/clinical4.png", alt="alt").medicalService__card__img
+                    h3 Procesamiento de coprológicos y parcial de orina 
+                    a(href="https://api.whatsapp.com/send?phone=573219431425&text=Se%C3%B1ores%20Centro%20Diagnostica,%20necesito%20informaci%C3%B3n%20de%20" rel="noopener nofollow" target="_blank") Contactar WhatsApp
+        include footer
